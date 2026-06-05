@@ -1,0 +1,21 @@
+/* Stilregler för hela sidan */
+body {
+  /* Anger vilket typsnitt som används på sidan */
+  /* Först används Google-fonten Barriecito, annars systemts standardfont */
+  font-family: "Barriecito", system-ui;
+  /* centrerar text och inlinje-element horisontellt */
+  text-align: center;
+}
+
+/* Stilregler specifikt för canvas-element */
+canvas {
+  /* Lägger en svart ram runt canvasen */
+  /* 5px = ramens tjocklek */
+  border: 5px solid #000000;
+  /* Skapar mellanrum runt canvasen så att den inte sitter fast i kanterna på webbläsaren */
+  margin: 10px;
+  /* Bakgrundsbild till spelet */
+  background-image: url('assets/background.png');
+  background-size: cover;
+  background-position: center;
+}
